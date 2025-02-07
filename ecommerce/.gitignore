@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.genv/
+.gvp/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-specific files
+*.sqlite3
+*.log
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+# Ignore .env files (environment variables)
+.env
+*.env
+
+# Secret Key / Configuration Files
+config/settings/local.py
+config/settings/*.local
+config/settings/.env
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# MyPy
+.mypy_cache/
+
+# Pytest and testing-related files
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# JetBrains IDE (PyCharm, WebStorm) settings
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore node_modules if using frontend (React/Vue/Angular)
+node_modules/
+
+# Ignore compiled and minified frontend assets
+*.min.js
+*.min.css
